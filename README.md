@@ -1,0 +1,5 @@
+To demonstrate the working of AI agents, an LLM-powered AI Data Analyst Agent has been developed using Python, Groq API, Pandas, NumPy and Plotly in Google Colab.
+The system accepts natural-language questions about a dataset. The LLM interprets the question and selects an appropriate predefined Python function. The application executes the function and returns the result to the LLM for a final explanation.
+Its main tools include inspect_dataset, describe_dataset, calculate_total_sales, sales_by_region, plot_sales_by_region, plot_sales_trend and plot_category_sales.
+For example, a user can ask, "Which region has the highest sales?" The agent selects the regional-sales function, processes the dataset using Pandas and provides the re-sult. Plotly generates interactive charts when requested.
+This project demonstrates perception, decision-making, tool calling, action execu-tion and feedback. However, it is a limited prototype with predefined tools and does not implement persistent long-term memory or unrestricted autonomous operation.
